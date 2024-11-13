@@ -1,1 +1,41 @@
 /* Start coding here */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    height: 100vh;
+}
+.content-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    height: 80vh;
+}
+.content {
+    background-color: #fea500;
+    width: 50vw;
+}
+
+.nav, .advertisment {
+    background-color: #fea500;
+    flex: 1;
+}
+.header {
+    flex: 1;
+    background-color: #008081;
+}
+.footer {
+    flex: 1;
+    background-color: #f0e78c;
+    
+}
+
+.content, .nav, .advertisment, .header, .footer {
+     display: flex; 
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     font-weight: bold;
+     font-size: 2rem;
+     vertical-align: middle;
+}
